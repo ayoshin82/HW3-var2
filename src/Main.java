@@ -18,5 +18,24 @@ public class Main {
         System.out.println("Значение переменной  d с типом  long   равно  " + d);
         System.out.println("Значение переменной  f с типом   float    равно  " + f);
         System.out.println("Значение переменной  j с типом  double   равно  " + j );
+
+        System.out.println("Задача № 2");
+
+        int h = 27897 ;
+        byte  k= 67 ;
+        short l = 569 ;
+        long m = 987678965549L;
+        float n = 27.12f;
+        double p = 2.786;
+        short q = -159 ;
+        System.out.println("Значение переменной h с типом int равно " + h );
+        System.out.println("Значение переменной k с типом  byte  равно " + k );
+        System.out.println("Значение переменной  l с типом  short   равно " + l  );
+        System.out.println("Значение переменной  m с типом  long   равно  " + m);
+        System.out.println("Значение переменной  n с типом   float    равно  " + n);
+        System.out.println("Значение переменной  p с типом  double   равно  " + p );
+        System.out.println("Значение переменной  q с типом  short   равно " + q  );
+
+
     }
 }
