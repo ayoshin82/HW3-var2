@@ -76,6 +76,35 @@ public class Main {
         System.out.println("В школе, где " + numberOfClasses  +  " классов, нужно " + totalAmountOfWhitePaintForAllClasses
                 + " банок белой краски и "  + totalAmountOfBrownPaintForAllClasses + " банок коричневой краски");
 
+        System.out.println("Задача № 6");
+
+        Byte bananas = 5;
+        Byte gramsInOneBanana = 80;
+
+        short milk = 200;
+        Byte halfServingOfMilk = 100;
+        Byte gramsIn100MillilitersOfMilk = 105;
+        int amountOfMilkNeeded = milk/halfServingOfMilk;
+
+        Byte IceCreamBriquettes = 2;
+        Byte oneBriquetteOfFrozenGrams=100;
+
+        Byte rawEggs = 4;
+        Byte numberOfGramsInOneRawEgg = 70;
+
+        int numberOfGramsInFiveBananas = bananas * gramsInOneBanana;
+        int numberOfGramsIn200MlOfMilk = amountOfMilkNeeded * gramsIn100MillilitersOfMilk;
+        int numberOfGramsIn2IceCreamBriquettes =  IceCreamBriquettes * oneBriquetteOfFrozenGrams;
+        int numberOfGramsIn4RawEggs = rawEggs * numberOfGramsInOneRawEgg;
+        int totalGramsInBreakfast = numberOfGramsInFiveBananas + numberOfGramsIn200MlOfMilk + numberOfGramsIn2IceCreamBriquettes +
+                numberOfGramsIn4RawEggs;
+        float totalGramInKg = 1000f;
+
+        float totalKgInBreakfast =  totalGramsInBreakfast /  totalGramInKg;
+        System.out.println("Вес (количество граммов) такого спортзавтрака составляет " + totalGramsInBreakfast + " граммов");
+        System.out.println("Вес (количество килограммов) такого спортзавтрака составляет " + totalKgInBreakfast  + " килограмм");
+
+
 
 
 
