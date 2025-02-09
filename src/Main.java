@@ -64,6 +64,19 @@ public class Main {
         System.out.println("За  43200 минут (30 дней) машина произвела  " +   capacityOfBottleMakingMachineIn43200Minutes  +
                 " штук бутылок" );
 
+        System.out.println("Задача № 5");
+
+        Byte  totalNumberOfPaintCansForClasses = 120;
+        Byte quantityOfWhitePaintPerClass=2;
+        Byte quantityOfBrownPaintPerClass =4;
+        int  totalNumberOfPaintCansPerOneClass =  quantityOfWhitePaintPerClass + quantityOfBrownPaintPerClass;
+        int  numberOfClasses = totalNumberOfPaintCansForClasses  /  totalNumberOfPaintCansPerOneClass;
+        int  totalAmountOfWhitePaintForAllClasses=   numberOfClasses  *   quantityOfWhitePaintPerClass;
+        int totalAmountOfBrownPaintForAllClasses =   numberOfClasses *  quantityOfBrownPaintPerClass;
+        System.out.println("В школе, где " + numberOfClasses  +  " классов, нужно " + totalAmountOfWhitePaintForAllClasses
+                + " банок белой краски и "  + totalAmountOfBrownPaintForAllClasses + " банок коричневой краски");
+
+
 
 
 
