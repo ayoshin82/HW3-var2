@@ -45,6 +45,27 @@ public class Main {
         int numberOfSheetsForEachStudent = totalNumberOfSheets / totalStudents;
         System.out.println("На каждого ученика рассчитано  " +    numberOfSheetsForEachStudent + " листов бумаги"  );
 
+        System.out.println("Задача № 4");
+        byte capacityOfBottleMakingMachineIn2Minutes = 16;
+        byte t1 = 20;
+        short t2 = 1440;
+        short t3 = 1440 * 3;
+        int t4 = 1440 * 30;
+        byte  capacityOfBottleMakingMachineIn1Minutes = 16/2;
+        int capacityOfBottleMakingMachineIn20Minutes = capacityOfBottleMakingMachineIn1Minutes * t1;
+        int capacityOfBottleMakingMachineIn1440Minutes = capacityOfBottleMakingMachineIn1Minutes * t2;
+        int capacityOfBottleMakingMachineIn4320Minutes = capacityOfBottleMakingMachineIn1Minutes * t3;
+        int capacityOfBottleMakingMachineIn43200Minutes = capacityOfBottleMakingMachineIn1Minutes * t4;
+        System.out.println("За 1 минуту  машина произвела  " +  capacityOfBottleMakingMachineIn1Minutes + "  штук бутылок");
+        System.out.println("За 20 минут машина произвела  " +   capacityOfBottleMakingMachineIn20Minutes +   " штук бутылок" );
+        System.out.println("За 1440 минут (сутки) машина произвела  " +  capacityOfBottleMakingMachineIn1440Minutes + " штук бутылок");
+        System.out.println("За 4320 минут (3 дня)  машина произвела  " +   capacityOfBottleMakingMachineIn4320Minutes  +
+                " штук бутылок" );
+        System.out.println("За  43200 минут (30 дней) машина произвела  " +   capacityOfBottleMakingMachineIn43200Minutes  +
+                " штук бутылок" );
+
+
+
 
 
     }
