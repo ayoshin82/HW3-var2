@@ -121,6 +121,66 @@ public class Main {
         int numberOfDaysToLoseWeightOnAverage = sumOfDaysForCalculatingTheArithmeticMean / numberOfWaysToLoseWeight;
         System.out.println(numberOfDaysToLoseWeightOnAverage + " дней уйдет на похудение в среднем");
 
+        System.out.println("Задача № 8");
+        int mashaCurrentSalaryPerMonth = 67760;
+        int denisSalaryCurrentPerMonth = 83690;
+        int christinaSalaryCurrentPerMonth = 76230;
+
+        float salaryIncreasePercentage=10/100f;
+        float amountOf10PercentOfMashaCurrentSalary = mashaCurrentSalaryPerMonth * salaryIncreasePercentage;
+        float amountOf10PercentOfDenisCurrentSalary = denisSalaryCurrentPerMonth * salaryIncreasePercentage;
+        float amountOf10PercentOfChristinaCurrentSalary = christinaSalaryCurrentPerMonth * salaryIncreasePercentage;
+        System.out.println("Сумма 10% от месячной зарплаты сотрудников: Маши, Дениса, Кристины соответсвенно");
+        System.out.println(amountOf10PercentOfMashaCurrentSalary);
+        System.out.println(amountOf10PercentOfDenisCurrentSalary);
+        System.out.println(amountOf10PercentOfChristinaCurrentSalary);
+
+
+        float mashaSalaryPerMonthAfterTheIncrease =  mashaCurrentSalaryPerMonth  +  amountOf10PercentOfMashaCurrentSalary;            ;
+        float denisSalaryPerMonthAfterTheIncrease =  denisSalaryCurrentPerMonth  +   amountOf10PercentOfDenisCurrentSalary;
+        float christinaSalaryPerMonthAfterTheIncrease = christinaSalaryCurrentPerMonth + amountOf10PercentOfChristinaCurrentSalary;
+        System.out.println("Месячная зарплата сотрудников после повышения: Маши, Дениса, Кристины соответсвенно");
+        System.out.println(mashaSalaryPerMonthAfterTheIncrease);
+        System.out.println(denisSalaryPerMonthAfterTheIncrease);
+        System.out.println(christinaSalaryPerMonthAfterTheIncrease);
+
+
+        byte month = 12;
+        double AnnualIncomeOfMashaAfterTheIncrease = mashaSalaryPerMonthAfterTheIncrease * month;
+        double AnnualIncomeOfDenisAfterTheIncrease = denisSalaryPerMonthAfterTheIncrease * month;
+        double AnnualIncomeOfChristinaAfterTheIncrease = christinaSalaryPerMonthAfterTheIncrease * month;
+        System.out.println("Годовая зарплата сотрудников после повышения: Маши, Дениса, Кристины соответсвенно");
+        System.out.println(AnnualIncomeOfMashaAfterTheIncrease);
+        System.out.println(AnnualIncomeOfDenisAfterTheIncrease);
+        System.out.println(AnnualIncomeOfChristinaAfterTheIncrease);
+
+
+
+        int MashaAnnualIncomeBeforeTheIncrease = mashaCurrentSalaryPerMonth * month;
+        int DenisAnnualIncomeBeforeTheIncrease = denisSalaryCurrentPerMonth *   month;
+        int ChristinaAnnualIncomeBeforeTheIncrease = christinaSalaryCurrentPerMonth * month;
+        System.out.println("Годовая зарплата сотрудников до повышения: Маши, Дениса, Кристины соответсвенно");
+        System.out.println(MashaAnnualIncomeBeforeTheIncrease);
+        System.out.println(DenisAnnualIncomeBeforeTheIncrease);
+        System.out.println(ChristinaAnnualIncomeBeforeTheIncrease);
+
+        System.out.println("Разница между годовыми зарплатами сотрудников до повышения и после: Маши, Дениса, Кристины соответсвенно");
+        double differenceBetweenMashaAnnualSalaryBeforeThePromotionAndAfter = AnnualIncomeOfMashaAfterTheIncrease - MashaAnnualIncomeBeforeTheIncrease;
+        double differenceBetweenDenisAnnualSalaryBeforeThePromotionAndAfter = AnnualIncomeOfDenisAfterTheIncrease - DenisAnnualIncomeBeforeTheIncrease;
+        double differenceBetweenChristinaAnnualSalaryBeforeThePromotionAndAfter = AnnualIncomeOfChristinaAfterTheIncrease - ChristinaAnnualIncomeBeforeTheIncrease;
+        System.out.println(differenceBetweenMashaAnnualSalaryBeforeThePromotionAndAfter);
+        System.out.println(differenceBetweenDenisAnnualSalaryBeforeThePromotionAndAfter);
+        System.out.println(differenceBetweenChristinaAnnualSalaryBeforeThePromotionAndAfter);
+
+        System.out.println("Маша теперь получает " + mashaSalaryPerMonthAfterTheIncrease + " рублей в месяц. " +
+                "Годовой доход вырос на " + differenceBetweenMashaAnnualSalaryBeforeThePromotionAndAfter +" рублей. " );
+        System.out.println("Денис теперь получает " +  denisSalaryPerMonthAfterTheIncrease + " рублей в месяц. " +
+                "Годовой доход вырос на " + differenceBetweenDenisAnnualSalaryBeforeThePromotionAndAfter +" рублей." );
+        System.out.println("Кристина теперь получает " + christinaSalaryPerMonthAfterTheIncrease + " рублей в месяц. " +
+                "Годовой доход вырос на " +  differenceBetweenChristinaAnnualSalaryBeforeThePromotionAndAfter +" рублей." );
+
+
+
 
 
 
