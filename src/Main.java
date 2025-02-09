@@ -36,6 +36,16 @@ public class Main {
         System.out.println("Значение переменной  p с типом  double   равно  " + p );
         System.out.println("Значение переменной  q с типом  short   равно " + q  );
 
+        System.out.println("Задача № 3");
+        short totalNumberOfSheets = 480;
+        byte numberОfLyudmilaPavlovnaStudents = 23;
+        byte numberОfAnnaSergeevnaStudents = 27;
+        byte numberОfEkaterinaAndreevnaStudents = 30;
+        int totalStudents = numberОfLyudmilaPavlovnaStudents + numberОfAnnaSergeevnaStudents + numberОfEkaterinaAndreevnaStudents;
+        int numberOfSheetsForEachStudent = totalNumberOfSheets / totalStudents;
+        System.out.println("На каждого ученика рассчитано  " +    numberOfSheetsForEachStudent + " листов бумаги"  );
+
+
 
     }
 }
