@@ -104,6 +104,23 @@ public class Main {
         System.out.println("Вес (количество граммов) такого спортзавтрака составляет " + totalGramsInBreakfast + " граммов");
         System.out.println("Вес (количество килограммов) такого спортзавтрака составляет " + totalKgInBreakfast  + " килограмм");
 
+        System.out.println("Задача № 7");
+        Byte  totalNumberOfKgForWeightLoss =7;
+        short totalNumberOfGramsInKilogram = 1000;
+        int totalGramsForWeightLoss = 7*1000;
+        short firstWayToLoseWeight = 250;
+        short secondWayToLoseWeight = 500;
+        int numberOfDaysWithTheFirstMethodOfLosingWeight = totalGramsForWeightLoss / firstWayToLoseWeight;
+        int numberOfDaysWithTheSecondMethodOfLosingWeight= totalGramsForWeightLoss / secondWayToLoseWeight;
+        System.out.println(numberOfDaysWithTheFirstMethodOfLosingWeight + "  дней уйдет на похудение, если спортсмен будет терять каждый день по 250 грамм");
+        System.out.println(numberOfDaysWithTheSecondMethodOfLosingWeight + " дней уйдет на похудение, если спортсмен каждый день будет худеть на 500 грамм");
+
+        byte numberOfWaysToLoseWeight = 2;
+        int  sumOfDaysForCalculatingTheArithmeticMean = numberOfDaysWithTheFirstMethodOfLosingWeight+
+                numberOfDaysWithTheSecondMethodOfLosingWeight;
+        int numberOfDaysToLoseWeightOnAverage = sumOfDaysForCalculatingTheArithmeticMean / numberOfWaysToLoseWeight;
+        System.out.println(numberOfDaysToLoseWeightOnAverage + " дней уйдет на похудение в среднем");
+
 
 
 
